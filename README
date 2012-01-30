@@ -1,0 +1,7 @@
+MF
+=======
+A simple wrapper for median filter based on OpenCV
+
+Median Filtering in Constant Time (http://nomis80.org/ctmf.html)
+
+I wrote this mostly for fun.
