@@ -38,3 +38,5 @@ void mf(IplImage *src, IplImage *dst, int radius)
        256 * 1024 /* L2 cache size is a proper option */
        );
 }
+
+#undef _CHKFMT

@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
                                 src->depth,
                                 src->nChannels);
   int radius = 3;
+  
+  /* median filtering */
   mf(src, dst, radius);
 
   /* fucking ugly code block ;( */
